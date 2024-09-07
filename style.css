@@ -1,0 +1,33 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.termos {
+  display: flex;
+  gap: 20px;
+}
+
+.termos a {
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1d1d1d;
+
+  text-wrap: nowrap;
+}
+
+.termos a:hover {
+  transform: scale(1.05);
+}
+
+.termos a {
+  text-decoration: none;
+  padding: 2rem;
+}
